@@ -1,0 +1,25 @@
+{
+  "name": "yijun/360kan",
+  "description": "采集360影视数据",
+  "keywords": [
+    "360kan",
+    "yijun"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yijun",
+      "email": "admin@strjson.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MysqlDict\\": "src/"
+    }
+  }
+}
